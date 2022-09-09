@@ -4,7 +4,7 @@
     "description": "Make service in Laravel project",
     "license": "MIT",
     "require": {
-        "php": ">=8.0",
+        "php": "^8.0",
         "illuminate/support": "^9.14",
         "illuminate/console": "^9.14"
     },
