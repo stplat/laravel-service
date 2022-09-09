@@ -49,7 +49,7 @@ class ServiceMakeCommand extends GeneratorCommand
      */
     protected function getStub()
     {
-        return __DIR__ . '/../stubs/repository.stub';
+        return __DIR__ . '/../stubs/service.stub';
     }
 
     /**
