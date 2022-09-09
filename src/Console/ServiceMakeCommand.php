@@ -1,6 +1,6 @@
 <?php
 
-namespace Stsp\LaravelService\Commands;
+namespace Stsp\LaravelService\Console;
 
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputArgument;
