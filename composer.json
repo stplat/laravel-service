@@ -1,7 +1,7 @@
 {
-    "name": "stsp/laravel-repository",
+    "name": "stsp/laravel-service",
     "type": "library",
-    "description": "Base repository in Laravel project",
+    "description": "Make service in Laravel project",
     "license": "MIT",
     "require": {
         "php": ">=8.0",
@@ -10,13 +10,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Stsp\\LaravelRepository\\": "src/"
+            "Stsp\\LaravelService\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Stsp\\LaravelRepository\\RepositoryServiceProvider"
+                "Stsp\\LaravelService\\ServiceServiceProvider"
             ]
         }
     }
