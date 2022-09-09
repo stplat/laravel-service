@@ -3,7 +3,7 @@
 namespace Stsp\LaravelService;
 
 use Illuminate\Support\ServiceProvider;
-use Stsp\LaravelRepository\Console\ServiceMakeCommand;
+use Stsp\LaravelService\Console\ServiceMakeCommand;
 
 class ServiceServiceProvider extends ServiceProvider
 {
