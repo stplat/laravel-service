@@ -1,0 +1,39 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Repositories\UserRepository as Repository;
+use Illuminate\Support\Collection;
+
+
+/**
+ * {{ class }}
+ * @package {{ namespace }}
+ */
+class {{ class }}
+{
+    private $repository;
+
+    /**
+     * Create a new service instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->repository = app(Repository::class);
+    }
+
+    /**
+     * Make service execution.
+     *
+     * @param object $data
+     * @return Collection
+     */
+    public function make(object $data): Collection
+    {
+        //
+
+        return collect();
+    }
+}
