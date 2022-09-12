@@ -4,6 +4,7 @@ namespace Stsp\LaravelService;
 
 use Illuminate\Support\Collection;
 use Stsp\LaravelRepository\Repository;
+use Illuminate\Database\Eloquent\Model;
 
 
 /**
@@ -21,18 +22,18 @@ class ShowService
      */
     public function __construct(Repository $repository)
     {
-        $this->repository = app($repository);
+        $this->repository = $repository;
     }
 
     /**
      * Get item by id
      *
      * @param  int $id
-     * @return Collection
+     * @return Model
      */
-    public function getItemById(int $id): Collection
+    public function getItemById(int $id): Model
     {
-        return collect($this->repository->findItemById($id));
+        return $this->repository->findItemById($id);
     }
 
     /**

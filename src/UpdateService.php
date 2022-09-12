@@ -20,7 +20,7 @@ class UpdateService
      */
     public function __construct(Repository $repository)
     {
-        $this->repository = app($repository);
+        $this->repository = $repository;
     }
 
     /**
