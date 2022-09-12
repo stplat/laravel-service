@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Services;
+namespace Stsp\LaravelService;
 
 use Illuminate\Support\Collection;
 use Stsp\LaravelRepository\Repository;
 
 /**
  * FilterService
- * @package App\Services
+ * @package Stsp\LaravelService
  */
 class FilterService
 {

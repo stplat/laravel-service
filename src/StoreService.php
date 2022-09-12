@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Services;
+namespace Stsp\LaravelService;
 
 use Stsp\LaravelRepository\Repository;
 
 /**
  * StoreService
- * @package App\Services
+ * @package Stsp\LaravelService
  */
 class StoreService
 {

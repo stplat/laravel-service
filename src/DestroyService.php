@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Services;
+namespace Stsp\LaravelService;
 
 use Stsp\LaravelRepository\Repository;
 
 /**
  * DestroyService
- * @package App\Services
+ * @package Stsp\LaravelService
  */
 class DestroyService
 {

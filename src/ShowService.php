@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services;
+namespace Stsp\LaravelService;
 
 use Illuminate\Support\Collection;
 use Stsp\LaravelRepository\Repository;
@@ -8,7 +8,7 @@ use Stsp\LaravelRepository\Repository;
 
 /**
  * ShowService
- * @package App\Services
+ * @package Stsp\LaravelService
  */
 class ShowService
 {

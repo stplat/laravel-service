@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Services;
+namespace Stsp\LaravelService;
 
 use Stsp\LaravelRepository\Repository;
 
 
 /**
  * UpdateService
- * @package App\Services
+ * @package Stsp\LaravelService
  */
 class UpdateService
 {
