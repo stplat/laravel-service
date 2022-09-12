@@ -6,7 +6,8 @@
     "require": {
         "php": "^8.0",
         "illuminate/support": "^9.14",
-        "illuminate/console": "^9.14"
+        "illuminate/console": "^9.14",
+        "stsp/laravel-repository": "^1.0"
     },
     "autoload": {
         "psr-4": {
