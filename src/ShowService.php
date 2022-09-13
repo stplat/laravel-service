@@ -29,9 +29,9 @@ class ShowService
      * Get item by id
      *
      * @param  int $id
-     * @return Model
+     * @return ?Model
      */
-    public function getItemById(int $id): Model
+    public function getItemById(int $id): ?Model
     {
         return $this->repository->findItemById($id);
     }
